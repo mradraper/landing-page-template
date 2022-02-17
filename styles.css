@@ -1,0 +1,176 @@
+body {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    height: 75px;
+    margin: 0;
+    padding: 1px;
+    border-bottom: solid #0f7158;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex: 1;
+    padding: 8px;
+    margin: 0;
+    align-items: center;
+}
+
+.header-links a:hover {
+    background-color: #0f7158;
+    color: white;
+}
+
+.header-links a {
+    color: #0f7158;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.intro {
+    width: 100%;
+    height: 400px;
+    background-image: url(images/gwillim-lakes.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-bottom: solid #0f7158;
+}
+
+.intro-welcome {
+    max-width: 400px;
+    background-color: rgb(15, 113, 88, 0.9);
+    padding: 24px;
+    margin: 36px;
+    border-radius: 10px;
+    color: white;
+}
+
+.intro-welcome h1 {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.intro-welcome p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.intro-btn {
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.join-btn {
+    font-size: 16px;
+    background-color: #ffbb4e;
+    border: 0;
+    color: #0f7158;
+    font-weight: 900;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.join-btn:hover {
+    background-color: white;
+    color: #0f7158;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.information {
+    padding-bottom: 36px;
+    border-bottom: solid #0f7158;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #0f7158;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info-list {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 36px;
+    text-align: center;
+}
+
+.info {
+ max-width: 225px;
+ border: 5px solid #0f7158;
+ border-radius: 5px;
+}
+
+.info-img {
+    height: 175px;
+    max-width: 225px;
+}
+
+.info .text {
+    padding: 10px;  
+}
+
+.testimonial {
+    background-color: #ffbb4e;
+    padding: 36px 20%;
+    font-size: 36px;
+    border-bottom: solid #0f7158;
+}
+
+.testimony-text {
+    font-style: italic;
+}
+
+.testimony-attribution {
+    font-weight: 800;
+    text-align: right;
+    font-size: 24px;
+}
+
+.action-call {
+    background-color: #0f7158;
+    padding: 24px;
+    color: white;
+    font-weight: 600;
+    margin: 36px 25%;
+    display: flex;
+    gap: 24px;
+    border-radius: 10px;
+}
+
+.action-call h3{
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.action-call-btn {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer {
+    background-color: #0f7158;
+    color: white;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
