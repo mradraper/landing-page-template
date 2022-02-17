@@ -111,6 +111,13 @@ button {
     text-align: center;
 }
 
+@media (max-width:1070px) {
+    .info-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .info {
  max-width: 225px;
  border: 5px solid #0f7158;
